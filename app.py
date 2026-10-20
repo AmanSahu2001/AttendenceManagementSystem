@@ -7,7 +7,7 @@ st.markdown("""
     <style>
     #MainMenu {visibility: hidden;}
     footer {visibility: hidden;}
-    header {visibility: hidden;}
+    [data-testid="stHeader"] {visibility: hidden;}
     
     /* Dark Mode Metric Cards */
     div[data-testid="metric-container"] {
