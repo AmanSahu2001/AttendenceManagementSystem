@@ -1,8 +1,6 @@
 import sqlitecloud
 import streamlit as st
 
-# @st.cache_resource ensures the app doesn't open a new network connection on every click
-@st.cache_resource
 def get_connection():
     # Grabs your secure connection string from Streamlit Cloud Secrets
     db_url = st.secrets["DATABASE_URL"]
